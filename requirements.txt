@@ -1,7 +1,7 @@
 Flask
 Keras
 numpy
-tensorflow-cpu
+tensorflow
 opencv-python
 flask_bootstrap
 werkzeug

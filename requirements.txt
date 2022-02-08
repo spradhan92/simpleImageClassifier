@@ -1,0 +1,10 @@
+Flask
+Keras
+numpy
+tensorflow-cpu
+opencv-python
+flask_bootstrap
+werkzeug
+pillow
+gevent
+h5py

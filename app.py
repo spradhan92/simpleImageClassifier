@@ -2,17 +2,11 @@ import os
 import sys
 
 # Flask
-from flask import Flask, redirect, url_for, request, render_template, Response, jsonify, redirect
-from werkzeug.utils import secure_filename
-from gevent.pywsgi import WSGIServer
+from flask import Flask,request, render_template, jsonify
 
 # TensorFlow and tf.keras
 import tensorflow as tf
 from tensorflow import keras
-
-from tensorflow.keras.applications.imagenet_utils import preprocess_input, decode_predictions
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
 
 # Some utilites
 import numpy as np
@@ -86,4 +80,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

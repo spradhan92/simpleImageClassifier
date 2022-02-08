@@ -1,10 +1,10 @@
 Flask
 Keras
 numpy
-tensorflow
 opencv-python
 flask_bootstrap
 werkzeug
 pillow
 gevent
 h5py
+tensorflow-cpu

@@ -8,3 +8,4 @@ pillow
 gevent
 h5py
 tensorflow-cpu
+gunicorn

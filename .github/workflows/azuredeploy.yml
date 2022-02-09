@@ -34,14 +34,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:    
-     - name: Login to azure
-       uses: azure/login@v1
-       with:
+      - name: Login to azure
+        uses: azure/login@v1
+        with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
     
     
-     - name: Checkout code
-       uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       - name: Set up Python version
         uses: actions/setup-python@v2.2.2

@@ -35,10 +35,10 @@ jobs:
 
     steps:    
       - name: Login to azure
-        uses: azure/login@v1
+        uses: azure/actions/login@v1
         with:
-          creds: ${{ secrets.MYAZUREAPP }}
-          enable-AzPSSession: true
+          creds: ${{ secrets.AZURE_CREDENTIALS  }}
+          enable-AzPSSession: false
     
     
       - name: Checkout code
